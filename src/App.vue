@@ -20,6 +20,12 @@ const testData: ColumnProps[] = [
     title: 'test2的专栏',
     description: '这是的test2专栏，有一段非常有意思的简介，可以更新一下哦',
     avatar: 'http://wechatapppro-1252524126.file.myqcloud.com/app001idwxc5847/image/compress/640480550kkbxsya5083app2y1gq.jpg'
+  },
+  {
+    id: 3,
+    title: 'test3的专栏',
+    description: '这是的test3专栏，有一段非常有意思的简介，可以更新一下哦,爱怎么说怎么说'
+    // avatar: 'http://wechatapppro-1252524126.file.myqcloud.com/app001idwxc5847/image/compress/640480550kkbxsya5083app2y1gq.jpg'
   }
 ]
 
