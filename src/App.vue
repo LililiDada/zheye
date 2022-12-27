@@ -5,7 +5,7 @@
     <form action="">
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">邮箱地址</label>
-        <ValiadateInput :rules="emailRules" v-model="emailVal"></ValiadateInput>
+        <ValiadateInput :rules="emailRules" v-model="emailVal" placeholder="请输入邮箱地址" type="text"></ValiadateInput>
       </div>
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">邮箱地址</label>
