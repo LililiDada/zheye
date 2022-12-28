@@ -50,7 +50,6 @@ const testData: ColumnProps[] = [
     // avatar: 'http://wechatapppro-1252524126.file.myqcloud.com/app001idwxc5847/image/compress/640480550kkbxsya5083app2y1gq.jpg'
   }
 ]
-const emailReg = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 export default defineComponent({
   name: 'App',
   components: {
@@ -61,14 +60,12 @@ export default defineComponent({
   },
   setup () {
     const emailVal = ref('')
-
     const emailRules: RulesProp = [
       { type: 'required', message: '电子邮箱地址不能为空' },
       { type: 'email', message: '请输入正确的电子邮箱格式' }
     ]
 
     const passwordVal = ref('')
-
     const passwordRules: RulesProp = [
       { type: 'required', message: '密码不能为空' }
     ]
